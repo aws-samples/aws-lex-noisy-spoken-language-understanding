@@ -9,7 +9,7 @@ Here we extend the natural language understanding (NLU) dataset with audio by sy
 
 ## Dataset
 ### Audio
-Due to the size of the dataset, we provide the audio as several tarballs in the [folder](data/audio_slu). After you un-tar these files, you will get a folder with following structure
+Due to the size of the dataset, we host the audio files on [s3](https://shangwel-asr-evaluation.s3-us-west-2.amazonaws.com/audio_slu_v3.zip). After you download and unzip the file, you will get a folder with following structure
 
 ```
 audio_slu/
