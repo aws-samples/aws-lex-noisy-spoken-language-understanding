@@ -9,7 +9,7 @@ Here we extend the natural language understanding (NLU) dataset with audio by sy
 
 ## Dataset
 ### Audio
-Due to the size of the dataset, we provide the audio as a [zip file](data/audio_slu.zip). After unzipping the file, you will see a folder with following structure
+Due to the size of the dataset, we provide the audio as several tarballs in the [folder](data/audio_slu). After you un-tar these files, you will get a folder with following structure
 
 ```
 audio_slu/
@@ -33,6 +33,7 @@ voice_id is the Amazon polly voice used to synthesize the audio as listed in the
 utterance_id is the utterance id can be used to relate the audio with its transcript and NLU annotation.
 
 ### NLU annotation
+The transcript and NLU annotation for each utterance can be found in the [folder](data/nlu_annotation). `u_id` in the file can be used to relate NLU annotation with audio.
 
 ## Security
 
