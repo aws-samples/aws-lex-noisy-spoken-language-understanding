@@ -1,8 +1,11 @@
 ## Lex datasets for noisy spoken language understanding 
 
 This repository contains dataset for evaluating spoken language understanding system with audio input. The utterances, intent and slot labeling in the dataset comes from SNIPS dataset published by the Snips team:
+
 [Coucke A. et al., "Snips Voice Platform: an embedded Spoken Language Understanding system for private-by-design voice interfaces." 2018](https://arxiv.org/abs/1805.10190)
+
 [github repo](https://github.com/sonos/nlu-benchmark)
+
 
 Here we extend the natural language understanding (NLU) dataset with audio by synthesizing the utterance with different voices provided by [Amazon Polly](https://aws.amazon.com/polly/). More information about the voices can be found [here](https://docs.aws.amazon.com/polly/latest/dg/voicelist.html).
 
